@@ -11,13 +11,18 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 1rem 0rem;
 }
 
+body {
+    background: #36393f;
+    color: #eeeeee;
+}
+
 a {
-    color: #00ab6b;
+    color: #00b0f4;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: #D76787;
     text-decoration: none;
 }
 
@@ -31,15 +36,15 @@ pre {
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
-    background: #fff;
+    background: #313338;
     border-radius: 0px;
     line-height: 1.6;
-    color: #333;
+    color: #E3EDF3;
     margin-bottom: -rem;
 }
 
 .mediumnavigation {
-    background: rgba(255, 255, 255, .97);
+    background: #2C2F33;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -198,7 +203,7 @@ section.recent-posts {
 
 .post-top-meta span {
     font-size: 0.9rem;
-    color: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, 0.44);
     display: inline-block;
 }
 
@@ -228,7 +233,7 @@ span.author-meta {
 
 span.post-date,
 span.post-read {
-    color: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, 0.44);
 }
 
 span.post-read-more {
@@ -239,12 +244,12 @@ span.post-read-more {
 }
 
 span.post-read-more a {
-    color: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, .44);
 }
 
 span.post-name a,
 span.post-read-more a:hover {
-    color: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, .8);
 }
 
 .dot:after {
@@ -305,7 +310,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: Work Sans;
 }
 
 .mainheading h1.posttitle {
@@ -314,26 +319,25 @@ span.post-read-more a:hover {
 }
 
 .footer {
-    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
     padding-top: 15px;
     padding-bottom: 12px;
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, 0.44);
     margin-top: 50px;
     margin-bottom: 62px;
     position: relative;
-    background: #fff;
+    background: #2C2F33;
 }
 
 .link-dark {
-    color: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .article-post {
     font-family: Merriweather;
     font-size: 1.1rem;
     line-height: 1.84;
-    color: rgba(0, 0, 0, .8);
 }
 
 blockquote {
@@ -373,7 +377,7 @@ blockquote {
 }
 
 .share ul li i.fa {
-    border: 1px solid #ddd;
+    border: 1px solid #000;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -474,18 +478,18 @@ blockquote {
 
 .share,
 .share a {
-    color: rgba(0, 0, 0, .44);
-    fill: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, .44);
+    fill: rgba(255, 255, 255, .44);
 }
 
 .graybg {
-    background-color: #fafafa;
+    background-color: #363636;
     padding: 40px 0 46px;
     position: relative;
 }
 
 .listrelated .card {
-    box-shadow: 0 1px 7px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 7px rgba(255, 255, 255, .05);
     border: 0;
 }
 
@@ -501,8 +505,8 @@ ul.tags li {
 }
 
 ul.tags li a {
-    background: rgba(0, 0, 0, .05);
-    color: rgba(0, 0, 0, .6);
+    background: rgba(255, 255, 255, .05);
+    color: rgba(255, 255, 255, 0.6);
     border-radius: 3px;
     padding: 5px 10px;
 }
@@ -556,7 +560,7 @@ ul.tags li a:hover {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #2C2F33;
     width: 100%;
     padding: 14px 0;
     z-index: 1;
@@ -774,7 +778,7 @@ iframe {
         padding: 0;
         height: 350px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
+        background-image: url(https://chrisjogos.com/images/bg.jpg);
         background-size: cover;
     }
 
@@ -792,7 +796,7 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.jpg);
+    background-image: url(https://chrisjogos.com/images/bg.jpg);
     background-size: cover;
 }
 
